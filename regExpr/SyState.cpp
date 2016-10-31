@@ -24,6 +24,9 @@ bool SyState::isEndState(){
 	return mIsEnd ;
 }
 
+bool SyState::operator<(const SyState& state){
+	return mState < state.mState;
+}
 SyState::~SyState(void)
 {
 }

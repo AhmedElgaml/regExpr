@@ -13,6 +13,7 @@ public:
 
 	bool isEndState();
 
+	bool operator <(const SyState&);
 	~SyState();
 
 private:
