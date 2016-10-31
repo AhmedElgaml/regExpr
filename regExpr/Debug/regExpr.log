@@ -1,15 +1,17 @@
-﻿Build started 10/31/2016 3:49:32 PM.
+﻿Build started 10/31/2016 6:12:03 PM.
      1>Project "E:\VS Projects\regExpr\regExpr\regExpr.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SyNonDeterministicFiniteAutomatonController.cpp
+         SyNonDeterministicFiniteAutomatonController.cpp
+     1>e:\vs projects\regexpr\regexpr\synondeterministicfiniteautomatoncontroller.cpp(27): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS Projects\regExpr\Debug\regExpr.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS Projects\regExpr\Debug\regExpr.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS Projects\regExpr\Debug\regExpr.lib" /MACHINE:X86 Debug\main.obj
          Debug\SyNonDeterministicFiniteAutomaton.obj
+         Debug\SyNonDeterministicFiniteAutomatonController.obj
          Debug\SyState.obj
          regExpr.vcxproj -> E:\VS Projects\regExpr\Debug\regExpr.exe
      1>Done Building Project "E:\VS Projects\regExpr\regExpr\regExpr.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.82
+Time Elapsed 00:00:00.87

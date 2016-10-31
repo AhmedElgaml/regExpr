@@ -66,10 +66,12 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SyNonDeterministicFiniteAutomaton.cpp" />
+    <ClCompile Include="SyNonDeterministicFiniteAutomatonController.cpp" />
     <ClCompile Include="SyState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SyNonDeterministicFiniteAutomaton.h" />
+    <ClInclude Include="SyNonDeterministicFiniteAutomatonController.h" />
     <ClInclude Include="SyState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
