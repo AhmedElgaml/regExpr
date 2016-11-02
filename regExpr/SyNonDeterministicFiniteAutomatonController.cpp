@@ -10,16 +10,16 @@ SyNonDeterministicFiniteAutomatonController::SyNonDeterministicFiniteAutomatonCo
 
 bool SyNonDeterministicFiniteAutomatonController::evaluate(const std::string& fText){
 	
-	for(std::size_t textIdx = 0 ;textIdx < fText.size();++textIdx){
+		for(auto &currentChar : fText){
 		SyNonDeterministicFiniteAutomaton::SyStatesSet newStates;
 
 			for(auto &state : mCurrentStates){
 				SyNonDeterministicFiniteAutomaton::SyStatesSet
-				currentStateNewStates = mNFA->getNextStates(state,fText[textIdx]);
+				currentStateNewStates = mNFA->getNextStates(state,currentChar);
 
 				mergeStates(newStates,currentStateNewStates);
 				
-	}
+			}
 
 			mCurrentStates = newStates;
 	}

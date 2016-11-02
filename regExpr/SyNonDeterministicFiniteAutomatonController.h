@@ -12,7 +12,7 @@ public:
 
 	~SyNonDeterministicFiniteAutomatonController();
 private:
-	void mergeStates(SyNonDeterministicFiniteAutomaton::SyStatesSet,SyNonDeterministicFiniteAutomaton::SyStatesSet);
+	 static void mergeStates(SyNonDeterministicFiniteAutomaton::SyStatesSet,SyNonDeterministicFiniteAutomaton::SyStatesSet);
 
 	std::shared_ptr<SyNonDeterministicFiniteAutomaton> mNFA;
 	SyNonDeterministicFiniteAutomaton::SyStatesSet mCurrentStates;
